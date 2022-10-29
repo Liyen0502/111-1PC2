@@ -22,15 +22,6 @@
 還需使用語法` ```csharp 程式碼 ``` `，
 下段程式碼則為使用後結果：
 
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.UI;
-using System.Web.UI.WebControls;
-
-namespace _111_1PC2
-{
     public partial class Test : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
@@ -42,7 +33,6 @@ namespace _111_1PC2
                 Response.Write(d_Ou);
             }
     }
-}
 
 若要於內文中標示部分.aspx檔，則使用以下標籤` ```html 程式碼 ``` `，
 下段程式碼則為使用後結果：
